@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org"
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+    
+<head>
+	<meta charset="UTF-8"/>
+	
+	<!-- Reforçando UTF-8 -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- Reforçando reponsibilidade de acordo com o dispositvo -->
+	<meta name="viewport" content="width=device=width"/>
+	
+	
+	<title>Cobrança de títulos</title>
+	
+	<!-- Leitua do BootStrap -->
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />	
+	
+	<!-- Date Picker - CSS -->
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap-datepicker.standalone.min.css" />
+	
+</head>
+
+<body>
+
+	<!-- Menu de navegação -->
+	<header th:replace="Menu"></header>
+	
+    <!-- Aqui usamos uma dialeto do Thymeleaf Layout-->
+    <!-- Aqui teremos o miolo das páginas -->
+	<section layout:fragment="conteudo" >
+		<p>Conteúdo principal...</p>
+	</section>
+	
+	
+<!-- JS do JQuery -->
+<script src="/js/jquery-2.1.4.min.js"></script>
+
+
+<!-- JS  do BootStrap -->
+<script src="/js/bootstrap.min.js"></script>	
+<!-- JS Date Picker -->
+<script src="/js/bootstrap-datepicker.min.js"></script>
+<!-- JS máscara de Money -->
+<script src="/js/jquery.maskMoney.min.js"></script>
+<!-- JS máscara de Data -->
+<script src="/js/jquery.mask.min.js"></script>
+
+
+<!-- JS da aplicação -->
+<script src="/js/cobranca.js"></script>
+
+
+	
+</body>
+</html>	
