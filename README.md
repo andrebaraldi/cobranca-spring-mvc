@@ -5,6 +5,8 @@ Projeto Web desenvolvido em Java 11
 com acesso à banco de dados MYSQL 
 
 Tecnologias utilizadas:
+- Spring Boot;
+- Spring MVC; 
 - Spring JPA;
 - Thymeleaf;
 - HTML;
